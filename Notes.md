@@ -29,6 +29,10 @@
   ## Map
    - It is used to transform the data from the source to the target.
    - Mapper Function is required for Map to transform the data.
+   - It is used to return single objects.
 
   ## Process - Map
    - collection --> stream --> filter --> map --> collect.
+
+  ## FlatMap
+    - It is used to return multiple objects.

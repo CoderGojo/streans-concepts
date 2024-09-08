@@ -1,11 +1,11 @@
 # Notes
 
-## Java Streams - Filter
+## Java Streams:
 
-    # Collection:
-        - To represent group of data/subjects as single entity.
-    # Stream:
-        - To process the data from collection we use streams concept.
+  # Collection:
+    - To represent group of data/subjects as single entity.
+  # Stream:
+    - To process the data from collection we use streams concept.
     
 ## Lambdas:
    - Back to the example of inline Strings and numbers. Just like you can pass an inline String value to a method, you can pass in an "inline" lambda expression tool
@@ -19,3 +19,16 @@
  
  ## What are Streams?
    - A sequence of elements supporting sequential and parallel aggregate operations. 
+
+## Stream Operations
+
+  ## Filter
+   - A condition needs to be fulfilled so as to collect the filtered data on the collections.
+   - Predicate Function is required for filter.
+
+  ## Map
+   - It is used to transform the data from the source to the target.
+   - Mapper Function is required for Map to transform the data.
+
+  ## Process - Map
+   - collection --> stream --> filter --> map --> collect.

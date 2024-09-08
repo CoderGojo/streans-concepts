@@ -15,7 +15,6 @@ class Product{
         this.price = price;
     }
 
-
 }
 
 public class FilterDemo4 {

@@ -20,6 +20,14 @@
  ## What are Streams?
    - A sequence of elements supporting sequential and parallel aggregate operations. 
 
+ ## Methods:
+    
+  ## Terminal Methods:
+    - collect(), count(), min(), max(), forEach(), toArray()
+  
+  ## Non-Terminal Methods:
+    - filter(), map(), flatmap(), distinct(), limit()
+
 ## Stream Operations
 
   ## Filter
@@ -36,3 +44,4 @@
 
   ## FlatMap
     - It is used to return multiple objects.
+  
